@@ -14,3 +14,8 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   chocolateBars = array.unshift(element)
   return chocolateBars
 }
+
+function addElementToEndOfArray(array, element) {
+  var newChocolateBars = [...array, element]
+  return newChocolateBars
+}
