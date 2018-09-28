@@ -19,3 +19,4 @@ function addElementToEndOfArray(array, element) {
   var newChocolateBars = [...array, element]
   return newChocolateBars
 }
+
