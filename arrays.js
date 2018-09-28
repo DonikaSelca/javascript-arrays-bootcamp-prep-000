@@ -20,23 +20,23 @@ function addElementToEndOfArray(array, element) {
   return newChocolateBars
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-  array.push(element)
-  return array
-}
+// function destructivelyAddElementToEndOfArray(array, element) {
+//   array.push(element)
+//   return array
+// }
 
-function accessElementInArray(array, index) {
-  return array[index]
-}
+// function accessElementInArray(array, index) {
+//   return array[index]
+// }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift()
-}
+// function destructivelyRemoveElementFromBeginningOfArray(array) {
+//   return array.shift()
+// }
 
-function removeEleentFromBeginningOfArray(array) {
-  return newArray = array.slice()
-}
+// function removeEleentFromBeginningOfArray(array) {
+//   return newArray = array.slice()
+// }
 
-function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop()
-}
+// function destructivelyRemoveElementFromEndOfArray(array) {
+//   return array.pop()
+// }
